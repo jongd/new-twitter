@@ -1,12 +1,17 @@
 // This is the notification count on the menu item
 // - way too distracting for life.
 .global-nav .people .count.new-count {
-    display: none;
+  display: none;
 }
 
 // Make new-style profiles readable again!
 .ProfileTweet--high .ProfileTweet-text {
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+// I never click Discover
+#global-actions .topics {
+  display: none;
 }

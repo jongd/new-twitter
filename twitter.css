@@ -15,7 +15,12 @@
   display: none;
 }
 
-// I don't care. No one cares.
+/* I don't care. No one cares. */
 .ProfileWTFAndTrends {
+  display: none;
+}
+
+/* Who's trending now huh?? */
+.trends-inner {
   display: none;
 }

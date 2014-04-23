@@ -15,7 +15,12 @@
   display: none;
 }
 
-// I don't care. No one cares.
-.ProfileWTFAndTrends {
-  display: none;
+/* I don't care. No one cares. Not even on the Notifications page. */
+.ProfileWTFAndTrends, .module.trends {
+    display: none;
+}
+
+/* With removal of trends, this increases width of tweets */
+.GridTimeline {
+    width: 875px;
 }

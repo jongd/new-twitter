@@ -24,3 +24,9 @@
 .trends-inner {
   display: none;
 }
+
+/* Just because a screen is wider than ~400 pixels, doesn't
+mean the cover image should take over 50% of the height. */
+.ProfileCanopy {
+  max-width: 300px;
+}

@@ -1,0 +1,28 @@
+.brand-holder {
+  position: relative;
+  left: 12px;
+}
+
+.date {
+  margin-left: 12px;
+}
+
+.post {
+  padding: 15px 12px;
+}
+
+.post .url {
+  margin-top: 3px;
+}
+
+.post-tagline {
+  margin: 5px 0 0 12px;
+  display: block;
+}
+
+.view-discussion {
+  float: right;
+  width: 50px;
+  text-align: right;
+}
+

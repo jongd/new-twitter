@@ -1,9 +1,11 @@
 /* This is the notification count on the menu item - way too distracting for life. */
+
 .global-nav .people .count.new-count {
   display: none;
 }
 
 /* Make new-style profiles readable again! */
+
 .ProfileTweet--high .ProfileTweet-text {
   font-size: 16px;
   line-height: 22px;
@@ -11,24 +13,52 @@
 }
 
 /* I never click Discover */
+
 #global-actions .topics {
   display: none;
 }
 
 /* I don't care. No one cares. */
+
 .ProfileWTFAndTrends {
   display: none;
 }
 
 /* Who's trending now huh?? */
+
 .trends-inner {
   display: none;
 }
 
 /* Just because a screen is wider than ~400 pixels, doesn't
 mean the cover image should take over 50% of the height. */
-.ProfileCanopy,
-.ProfileCanopy-header {
+
+.ProfileCanopy, .ProfileCanopy-header {
   max-height: 300px;
+}
+
+/* shhhhh */
+.WebToast {
+  display: none;
+}
+
+/* adblock */
+.promoted-tweet {
+  display: none;
+}
+
+/* wtf? wtf. */
+.wtf-module, .dashboard-right {
+  display: none;
+}
+
+/* speed dis up */
+#global-actions > li > a {
+  transition: none;
+}
+
+/* mmm fonts */
+#global-actions .Icon {
+  display: none;
 }
 

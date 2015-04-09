@@ -1,6 +1,15 @@
-/* This is the notification count on the menu item - way too distracting for life. */
-
-.global-nav .people .count.new-count {
+.global-nav .people,
+.count.new-count,
+#global-actions .topics,
+.ProfileWTFAndTrends,
+.trends-inner,
+.WebToast,
+.promoted-tweet,
+.wtf-module, 
+.dashboard-right,
+#global-actions .Icon,
+.siderail-related-tweets-container
+{
   display: none;
 }
 
@@ -12,24 +21,6 @@
   font-weight: 400;
 }
 
-/* I never click Discover */
-
-#global-actions .topics {
-  display: none;
-}
-
-/* I don't care. No one cares. */
-
-.ProfileWTFAndTrends {
-  display: none;
-}
-
-/* Who's trending now huh?? */
-
-.trends-inner {
-  display: none;
-}
-
 /* Just because a screen is wider than ~400 pixels, doesn't
 mean the cover image should take over 50% of the height. */
 
@@ -37,32 +28,7 @@ mean the cover image should take over 50% of the height. */
   max-height: 300px;
 }
 
-/* shhhhh */
-.WebToast {
-  display: none;
-}
-
-/* adblock */
-.promoted-tweet {
-  display: none;
-}
-
-/* wtf? wtf. */
-.wtf-module, .dashboard-right {
-  display: none;
-}
-
 /* speed dis up */
 #global-actions > li > a {
   transition: none;
-}
-
-/* mmm fonts */
-#global-actions .Icon {
-  display: none;
-}
-
-/* I literally do not care */
-.siderail-related-tweets-container {
-  display: none;
 }

@@ -62,3 +62,8 @@ mean the cover image should take over 50% of the height. */
   display: none;
 }
 
+/* I literally do not care */
+.siderail-related-tweets-container {
+  display: none;
+}
+}
